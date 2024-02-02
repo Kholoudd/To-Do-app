@@ -6,8 +6,8 @@ class SettingsScreen extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffDFECDB),
       body: Container(
-        color: Color(0xffDFECDB),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.start,
@@ -38,7 +38,7 @@ class SettingsScreen extends StatelessWidget {
                     child: Text(
                       "Language",
                       style:
-                          TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
+                      TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
                     )),
                 Container(
                   margin: EdgeInsets.only(left: 55),
@@ -66,7 +66,7 @@ class SettingsScreen extends StatelessWidget {
                   ),
                 ),
                 Container(
-                    padding: EdgeInsets.only(top: 30, left: 30),
+                    padding: EdgeInsets.only(top: 30, left: 30, bottom: 15),
                     child: Text(
                       "Mode",
                       style:
